@@ -1,0 +1,86 @@
+.closeIcon {
+
+	.mdi {
+		color: #313131;
+	}
+
+	.webix_icon_button {
+
+		&:before {
+			display: none;
+		}
+	}
+}
+
+.detailsHeader {
+
+	.webix_template {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.detailsInfo {
+	padding: 0px 10px;
+}
+
+.detailsTitle {
+	margin-bottom: 4px;
+}
+
+.detailsIcons {
+
+	.webix_icon_button {
+
+		&:before {
+			display: none;
+		}
+	}
+}
+
+.detailsAccordion {
+
+	.webix_accordionitem_label {
+		display: flex;
+	}
+
+	.webix_accordionitem.vertical>.webix_accordionitem_header .webix_accordionitem_button:before {
+		content: '\F001';
+	}
+
+	.webix_accordionitem .webix_accordionitem_header.collapsed .webix_accordionitem_button:before {
+		content: '\F003';
+	}
+
+	.webix_accordionitem.horizontal.collapsed .webix_accordionitem_header,
+	.webix_accordionitem.collapsed .webix_accordionitem_header {
+		color: #475466;
+
+		.headerNum {
+			color: #94A1B3;
+		}
+	}
+
+	.webix_accordionitem_header {
+		background-color: #F4F5F9;
+		font-size: 14px;
+		color: #1CA1C1;
+
+		.headerNum {
+			color: #1CA1C1;
+		}
+	}
+
+	.webix_accordionitem .webix_accordionitem_header .webix_accordionitem_button {
+		color: #1CA1C1;
+	}
+
+	.webix_accordionitem.collapsed .webix_accordionitem_header .webix_accordionitem_button {
+		color: #94A1B3;
+	}
+
+	.headerNum {
+		font-size: 12px;
+		margin-left: auto;
+	}
+}

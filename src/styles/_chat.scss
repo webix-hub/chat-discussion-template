@@ -1,0 +1,53 @@
+.infoBtn {
+	margin-left: auto;
+
+	.mdi,
+	.mdi:hover {
+		color: #1CA1C1;
+	}
+
+	&.webix_icon_button {
+
+		&:before {
+			display: none;
+		}
+	}
+}
+
+.channel {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: normal;
+	margin: 0;
+}
+
+.star {
+	margin-left: 6px;
+	color: #FDBF4C;
+}
+
+.topBar {
+
+	.webix_template {
+		padding: 4px 25px 0;
+	}
+}
+
+.topBarRow {
+	display: flex;
+	margin-bottom: 4px;
+}
+
+.topBarSection {
+	border-right: 1px solid #94A1B3;
+	padding: 0 4px;
+
+	&:first-of-type {
+		padding-left: 0;
+	}
+
+	&:last-of-type {
+		border-right: none;
+		padding-right: 0;
+	}
+}

@@ -1,0 +1,61 @@
+@import "header";
+@import "sidebar";
+@import "chat";
+@import "details";
+@import "files";
+
+.ellipsis {
+	overflow: hidden;
+	display: block;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+
+.bgWhite {
+	background-color: #FFFFFF;
+}
+
+.bgLight {
+	background: #EBEDF0;
+}
+
+.flex {
+	display: flex;
+}
+
+.flexColumn {
+	flex-direction: column;
+}
+
+.spaceBetween {
+	justify-content: space-between;
+}
+
+.alignCenter {
+	align-items: center;
+}
+
+.smText {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 400;
+}
+
+.textLight {
+	color: #94A1B3;
+}
+
+.strong {
+	font-weight: 500;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.smRichselect {
+
+	.webix_el_box {
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,241 @@
+.sidebarDark {
+	background-color: #475466;
+	border-color: transparent;
+	color: #DADEE0;
+
+	.sidebarUser {
+		background-color: #475466;
+		border-bottom-color: #5B687A;
+
+		&>.webix_template {
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	.sidebarTitle {
+		padding-left: 9px;
+	}
+
+	.webix_tree_item {
+		border-left: 4px solid transparent;
+	}
+
+	.webix_tree_leaves {
+		margin-left: 0;
+	}
+
+	&.webix_tree .webix_scroll_cont>.webix_tree_leaves {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.webix_tree_item.webix_selected,
+	.webix_tree_item.webix_selected:focus {
+		color: #DADEE0;
+		border-color: #1CA1C1;
+		background-color: #313131;
+
+		.sidebarItem {
+			color: #DADEE0;
+			margin-left: 6px;
+		}
+	}
+
+	.webix_tree_item.webix_selected span {
+		color: #DADEE0;
+
+		&.addIcon {
+			margin-left: 8px;
+		}
+
+		&.channelType,
+		&.personType {
+			margin-right: 6px;
+		}
+
+		&.unreadMessages {
+			background-color: #FF5C4C;
+			color: #FFFFFF;
+			margin-left: auto;
+		}
+
+		.personStatus {
+
+			&.online {
+				background: #55CD97;
+			}
+		}
+
+		.newMessages {
+			color: #FFFFFF;
+		}
+	}
+
+	.webix_tree_branch_1 {
+		margin-bottom: 14px;
+
+		.webix_tree_item {
+			padding-left: 16px;
+			padding-right: 16px;
+		}
+	}
+
+	.webix_tree_branch_2 {
+
+		.webix_tree_item {
+			padding-left: 28px;
+		}
+	}
+}
+
+.addIcon {
+	cursor: pointer;
+	margin-left: 8px;
+	line-height: 22px;
+}
+
+.channelType,
+.personType {
+	margin-right: 6px;
+}
+
+.personType {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.personStatus {
+	box-sizing: border-box;
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+
+	&.online {
+		background: #55CD97;
+	}
+
+	&.offline {
+		border: 1px solid #FFFFFF;
+	}
+}
+
+.unreadMessages {
+	background-color: #FF5C4C;
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	display: flex;
+	font-size: 12px;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	height: 18px;
+	width: 18px;
+}
+
+.newMessages {
+	color: #FFFFFF;
+	font-weight: 500;
+}
+
+.userWrapp {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.userImg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-right: 12px;
+
+	img {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+}
+
+.userInfo {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.userName {
+	color: #fff;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+
+.userPosition {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.userStatus {
+	background-color: #55CD97;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+}
+
+.sidebarAccordion {
+
+	.webix_accordionitem_label {
+		padding-left: 20px;
+	}
+
+	.webix_accordionitem {
+		border-color: #475466;
+	}
+
+	.webix_accordionitem .webix_accordionitem_header {
+
+		&:hover,
+		&:focus {
+			background-color: #475466;
+		}
+
+		.webix_accordionitem_button {
+			color: #DADEE0;
+		}
+	}
+
+	.webix_accordionitem.collapsed .webix_accordionitem_header {
+		color: #DADEE0;
+		background-color: #475466;
+		.webix_accordionitem_button {
+			color: #DADEE0;
+		}
+	}
+
+	.webix_accordionitem_header {
+		background-color: #475466;
+		border-color: #475466;
+		color: #DADEE0;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
+
+	.webix_accordionitem.vertical>.webix_accordionitem_header .webix_accordionitem_button:before {
+		content: '\F001';
+	}
+
+	.webix_accordionitem .webix_accordionitem_header.collapsed .webix_accordionitem_button:before {
+		content: '\F003';
+	}
+}

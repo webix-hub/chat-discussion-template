@@ -1,0 +1,51 @@
+.fileItem {
+	border-color: transparent;
+}
+
+.fileWrapp {
+	display: flex;
+}
+
+.fileImg {
+	display: flex;
+	margin-right: 10px;
+	width: 106px;
+
+	img {
+		width: 100%;
+	}
+}
+
+.fileName {
+	margin-bottom: 2px;
+}
+
+.fileInfo {
+	display: flex;
+	flex-direction: column;
+}
+
+.listPager {
+
+	&.webix_view {
+
+		&.webix_pager {
+			background: #EBEDF0;
+			padding-left: 4px;
+		}
+
+		.webix_pager_item_selected {
+			background: transparent;
+			color: #1CA1C1;
+			font-size: 14px;
+			min-width: 20px;
+		}
+
+		.webix_pager_item {
+			background: transparent;
+			color: #94A1B3;
+			font-size: 14px;
+			min-width: 20px;
+		}
+	}
+}
