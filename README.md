@@ -3,7 +3,7 @@ Webix Chat Discussion web Template
 
 Check the Chat Discussion web template for the Webix UI library.
 
-[Chat Discussion template live demo](https://webix-hub.github.io/).
+[Chat Discussion template live demo](https://webix-hub.github.io/chat-discussion-template/dist/es5/index.html).
 
 Use this template as a part of a business solution with the following features:
 - list of groups, channels, private messages;
