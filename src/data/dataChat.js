@@ -63,46 +63,46 @@ export const users = [
 	{
 		id: 1,
 		value: "Kristian Stewar",
-		image: "/photos/kristian_stewar.png"
+		image: "./photos/kristian_stewar.png"
 	},
 	{
 		id: 2,
 		value: "Brandon Hogins",
-		image: "/photos/brandon_hogins.png"
+		image: "./photos/brandon_hogins.png"
 	},
 	{
 		id: 3,
 		value: "Kori Sotten",
-		image: "/photos/kori_sotten.png"
+		image: "./photos/kori_sotten.png"
 	},
 	{
 		id: 4,
 		value: "Liza Korton",
-		image: "/photos/liza_korton.png"
+		image: "./photos/liza_korton.png"
 	},
 	{
 		id: 5,
 		value: "Ann Maxwell",
-		image: "/photos/ann_maxwell.png"
+		image: "./photos/ann_maxwell.png"
 	},
 	{
 		id: 6,
 		value: "Jack Tinkley",
-		image: "/photos/jack_tinkley.png"
+		image: "./photos/jack_tinkley.png"
 	},
 	{
 		id: 7,
 		value: "Terra Spitzner",
-		image: "/photos/terra_spitzner.png"
+		image: "./photos/terra_spitzner.png"
 	},
 	{
 		id: 8,
 		value: "Kristina Morrison",
-		image: "/photos/kristina_morrison.png"
+		image: "./photos/kristina_morrison.png"
 	},
 	{
 		id: 9,
 		value: "Adam Stoum",
-		image: "photos/adam_stoum.png"
+		image: "./photos/adam_stoum.png"
 	}
 ];
